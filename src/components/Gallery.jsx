@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { DataContext } from "../context/DataContext";
 import GalleryItem from "./GalleryItem";
 
-export default function Gallery (props) {
+export default function Gallery () {
 
     const data = useContext(DataContext);
 
